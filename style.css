@@ -1,0 +1,101 @@
+
+
+.indextitle {
+font-family: Georgia, 'Times New Roman', Times, serif;
+color:chocolate;
+font-size: 100px;
+font-weight: bold;
+}
+.recipeslist{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: flex-start;
+    max-width: 150px;
+     max-height: 100%;
+     align-items:flex-start ;
+     gap: 30px;
+     flex-direction: column;
+     order: -1;
+
+
+}
+.indexcontainer{
+display: flex;  
+justify-content: space-evenly;
+max-height: 300px;
+align-items: center;
+
+
+
+}
+.cookingimage{
+    max-height: 200px;
+    max-width: 200px; 
+    object-fit: contain;
+
+}
+.recipeslist1{
+    font-size: 25px;
+    font-weight: bold;
+}
+.welcome{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    font-size: 20px;
+    max-width: 744.48px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.introtext{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    font-size: 20px;
+    max-width: 744.48px;
+
+}
+.container1{
+    display: flex;
+align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 30px;
+}
+.update{
+    color: gray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.containerl{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.imgl{
+    max-width: 500px;
+    max-height: 500px;
+}
+.titlel{
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+    align-items: center;
+
+}
+.lasagnatitle{
+    color: chocolate;
+    font-size: 45px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif 
+}
+.ingredients{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 20px;
+}
+.page{
+    display:flex;
+    justify-items: center;
+    gap: 70px;
+}
